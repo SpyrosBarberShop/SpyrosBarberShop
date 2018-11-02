@@ -142,27 +142,27 @@ i.box-circle-solid{
 	z-index: -1;
 }
 .bg-right{
-	background:url("../img/sec-bg-01.jpg");
+	background:url("../images/sec-bg-01.jpg");
 	background-repeat: no-repeat;
 	background-position: top right;
 }
-.sec-bg-02{
-	background:url("../img/sec-bg-02.jpg");
-	background-repeat: no-repeat;
-	background-position: top left;	
-	background-size: cover;
+.sec-bg-02 {
+    background: url("../images/sec-bg-02.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
 }
-.sec-bg-03{
-	background:url("../img/sec-bg-03.jpg");
-	background-repeat: no-repeat;
-	background-position: top left;	
-	background-size: cover;
+.sec-bg-03 {
+    background: url("../images/sec-bg-03.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
 }
-.sec-bg-04{
-	background:url("../img/sec-bg-04.jpg");
-	background-repeat: no-repeat;
-	background-position: top left;	
-	background-size: cover;
+.sec-bg-04 {
+    background: url("../images/sec-bg-04.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
 }
 .parallax{
 	background-attachment: fixed!important;
@@ -284,11 +284,11 @@ i.box-circle-solid{
 .intro.intro-small{
 	height: 60%;
 }
-.intro-bg{
-	background:url("../img/intro-bg-01.jpg");
-	background-repeat:no-repeat;
-	background-position: center center;
-	background-size:cover;
+.intro-bg {
+    background: url("../images/intro-bg-01.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 .caption-container{
 	width:50rem;
