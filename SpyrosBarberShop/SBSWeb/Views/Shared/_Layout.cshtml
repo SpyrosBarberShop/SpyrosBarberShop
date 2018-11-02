@@ -22,10 +22,21 @@
     </environment>
 </head>
 <body>
+    @*<partial name="_CookieConsentPartial" />*@
+
+    <!-- Page loading animation -->
+    @*<div class="loader loader-bg">
+        <div class="loader-inner ball-pulse">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>*@
+
     <!-- Top navigation -->
     <nav class="navbar navbar-expand-md fixed-top top-nav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><strong>Logo Spyros</strong></a>
+            <a class="navbar-brand" asp-page="Index.cshtml"><strong>Logo Spyros</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><img src="img/icons/menu.png"></span>
             </button>
@@ -60,15 +71,15 @@
         </div>
     </nav>
 
-    <partial name="_CookieConsentPartial" />
-
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2018 - SBSWeb</p>
-        </footer>
-    </div>
+    @RenderBody()
+    <hr />
+    <footer>
+        <div class="copy-footer bg-primary py-2">
+            <div class="container text-center text-light">
+                &copy;<span id="year"></span>. All rights reserved.</i>
+            </div>
+        </div>
+    </footer>
 
     <environment include="Development">
         <!-- Bootstrap Javascript Libraries -->
