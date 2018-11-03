@@ -30,6 +30,14 @@
             </div>
         </div>
     </nav>
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        Use this space to summarize your privacy and cookie use policy.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <a asp-controller="Home" asp-action="Privacy" class="btn btn-info navbar-btn">Learn More</a>
+        <button type="button" class="btn btn-default navbar-btn" data-cookie-string="@cookieString">Accept</button>
+    </div>
     <script>
         (function () {
             document.querySelector("#cookieConsent button[data-cookie-string]").addEventListener("click", function (el) {
