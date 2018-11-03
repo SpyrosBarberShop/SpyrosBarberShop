@@ -39,3 +39,6 @@ var theYear = new Date().getFullYear();
 $('#year').html(theYear);
 });
 
+&(span: after {
+    content: '&euro;';
+}
