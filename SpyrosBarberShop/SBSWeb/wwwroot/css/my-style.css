@@ -1,0 +1,52 @@
+#logo {
+    max-width: 80px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+  .sec-bg-proti{
+	background:url("../images/proti.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;	
+	background-size: cover;
+}
+
+/*Hide - Unhide long text*/
+#more {
+    display: none;
+}
+
+#readLessText {
+    display: none;
+}
+
+#summary {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+    #summary p.collapse:not(.show) {
+        height: 50px !important;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    #summary p.collapsing {
+        min-height: 42px !important;
+    }
+
+    #summary a.collapsed:after {
+        content: '+ Διαβάστε Περισσότερα';
+    }
+
+    #summary a:not(.collapsed):after {
+        content: '- Διαβάστε Λιγότερα';
+    }
+
+/*Social Media buttons*/
+.social a {
+    padding: 0 .5em;
+    color: black;
+}

@@ -141,10 +141,10 @@ i.box-circle-solid{
 	top:0;
 	z-index: -1;
 }
-.bg-right{
-	background:url("../images/sec-bg-01.jpg");
-	background-repeat: no-repeat;
-	background-position: top right;
+.bg-right {
+    background: url("../images/sec-bg-01.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 .sec-bg-02 {
     background: url("../images/sec-bg-02.jpg");
@@ -334,13 +334,6 @@ i.box-circle-solid{
 	font-weight: 700;
 	font-size: 3rem;
 }
-
-/*.info-section h3{
-    font-weight: 700;
-    font-size: 3rem;
-
-}*/
-
 .info-section .price-count{
 	font-size: 2.5rem;
 }
@@ -515,7 +508,7 @@ i.box-circle-solid{
 	text-transform: capitalize;
 }
 .member-box{
-  width:100%
+  width:100%;
   float:left;
   position:relative;
   overflow:hidden
@@ -769,20 +762,20 @@ ul.social-box li {
 	position: relative;
 	z-index: 1;
 }
-.contact-section .form-control{
-	border-radius: 0;
-}
+/*.contact-section .form-control{
+	border-radius: 10%;
+}*/
 .contact-section #map{
 	height: 100vh;
 	width:100%;
 	position: absolute;
 	opacity: 0.3;
 }
-.contact-section .form-control:focus{
-	border-color: #B47F41;
-}
+/*.contact-section .form-control:focus{
+	border-color: #916634;
+}*/
 .contact-section .form-sec{
-	box-shadow: 0 0 30px rgba(0,0,0,1);
+	box-shadow: 0 0 30px rgba(180, 127, 65, 1);
 }
 /* ========== Copy Footer Styles ========== */
 .copy-footer{
