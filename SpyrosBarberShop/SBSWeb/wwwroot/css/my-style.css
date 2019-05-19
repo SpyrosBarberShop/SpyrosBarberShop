@@ -11,6 +11,14 @@
 	background-size: cover;
 }
 
+.sec-bg-schedule {
+    background: url("../images/schedule.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+}
+
+
 /*Hide - Unhide long text*/
 #more {
     display: none;
